@@ -1,3 +1,5 @@
+#!/bin/env bash
+
 # .bashrc
 
 # Source global definitions
@@ -6,7 +8,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific environment
-if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
+if ! [[ "$PATH" = *"$HOME/.local/bin:$HOME/bin:"* ]]
 then
     PATH="$HOME/.local/bin:$HOME/bin:$PATH"
 fi
@@ -30,7 +32,7 @@ export PS1='\[\e[1;33m\]\W \[\e[1;36m\]\$ \[\e[0m\]'
 
 if ! shopt -oq posix; then
   if [ -f /usr/share/bash-completion/bash_completion ]; then
-    . /usr/share/bash-completion/bash_completion
+    . /usr/share/bash-completion
   elif [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
   fi

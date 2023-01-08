@@ -1,0 +1,4 @@
+#!/bin/bash
+# shellcheck enable=require-variable-braces
+echo "Hello $USER"  # Will suggest ${USER}
+external-sources=true
