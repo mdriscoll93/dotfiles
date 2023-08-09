@@ -1,0 +1,18 @@
+[user]
+        name = Mark Driscoll
+        email = markgdriscolljr93@gmail.com
+[work]
+        email = mark.driscoll@acronis.com
+        name = Mark Driscoll
+[credential "https://github.com"]
+        helper =
+        helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+        helper =
+        helper = !/usr/bin/gh auth git-credential
+[core]
+        editor = vim
+        autocrlf = input
+        excludesfile = ~/.cvsignore
+[init]
+        defaultBranch = main
