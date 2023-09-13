@@ -18,16 +18,38 @@ alias du="du -h -c"
 alias fdesktop="find /opt /snap /usr ~ /etc /lib* /srv /var /sbin /bin -name '*.desktop' 2>/dev/null"
 alias grep="grep --color"
 
+# systemd #
+#---------#
+alias dayfail="journalctl --no-pager --since today --grep 'fail|error|fatal' --output json|jq '._EXE' | sort | uniq -c | sort --numeric --reverse --key 1"
+
 # pacman #
 #--------#
-alias orphans="pacman -Qtdq" # packages not required by any other
-alias expliciti="pacman -Qetq" # explicitly installed packages not required by any other
+alias orphans="pacman -Qtdq"       # packages not required by any other
+alias expliciti="pacman -Qetq"     # explicitly installed packages not required by any other
+alias pacsyu="sudo pacman -Syu"	   # update database & upgrade
+alias pacsy="sudo pacman -Sy"	   # update only
+alias pacsu="sudo pacman -Su"	   # upgrade only
+alias pacs="sudo pacman -S"	       # sync (install)
+alias pacss="sudo pacman -Ss"	   # search package
+alias pacsi="sudo pacman -Si"	   # details of the package
+alias pacqs="sudo pacman -Qs"	   # search locally installed package
+alias pacq="sudo pacman -Q"		   # version information
+alias pacqi="sudo pacman -Qi"	   # details of the installed package
+alias pacql="sudo pacman -Ql"	   # list all files of the package
+alias pacrs="sudo pacman -Rs"  	   # remove package not leaving orphans
+alias pacr="sudo pacman -R"	       # only remove selected package
+alias pacrns="sudo pacman -Rns"	   # remove (not leaving any orphans) == clean removal + remove configs
+alias pacrdd="sudo pacman -Rdd"	   # remove packages (breaking dependencies)
+alias pacqm="sudo pacman -Qm"	   # packages installed from aur
+alias pacqo="sudo pacman -Qo"      # file owned by $package
+alias pacqkk="sudo pacman -Qkk"	   # check for any altered files
+
 
 # disks #
 #-------#
 alias dush='du -sh *|sort -r -n'
-# view only mounted drives
-alias mnt="mount | awk -F' ' '{ printf "%s\t%s\n", $1, $3; }' | column -t | egrep ^/dev/ | sort"
+alias mnt="mount | awk -F' ' '{ printf "%s\t%s\n", $1, $3; }' | column -t | egrep ^/dev/ | sort" # view only mounted drives
+alias partview='lsblk --json | jq -c ".blockdevices[]|[.name,.size]"'
 
 # files #
 #-------#
@@ -35,10 +57,9 @@ alias mnt="mount | awk -F' ' '{ printf "%s\t%s\n", $1, $3; }' | column -t | egre
 alias pwdr='pwd > ~/.pwdremember'
 alias cpv='rsync -ah --info=progress2'
 alias cdr='cd $(cat ~/.pwdremember)'
-# grep for a command in history
 alias histg='history |grep'
-# sort by modification time
 alias left='ls -t -1'
+alias bkssh='tar --create --directory /home/$USER/bk --file - *| ssh root@teeth.markdriscoll.home "tar --directory /home/$USER --verbose --list --file -"'
 
 # git #
 #-----#
