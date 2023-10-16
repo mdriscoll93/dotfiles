@@ -84,3 +84,78 @@ alias aptin='sudo apt-get install'
 alias aptdup='sudo apt-get dist-upgrade'
 alias aptrem='sudo apt-get remove'
 alias aptpg='sudo apt-get purge'
+
+# - - - - excuse my mess - - - - #
+
+have() { command -v "$1" >&/dev/null; }
+btar() { tar -czf - "$@" | base64; }
+buntar() { base64 -d | tar -xvvzf -; }
+alias bridge='bridge --color=auto'
+count() { sort "$@" | uniq -c | sort -n -r | pager; }
+alias demo='PS1="\\n\\$ "'
+alias dnstrace='dnstracer -s .'
+alias lchown='chown -h'
+ldapls() {
+	ldapsearch -LLL -o ldif-wrap=no "$@" 1.1 | grep ^dn: \
+	| perl -MMIME::Base64 -pe 's/^(.+?):: (.+)$/"$1: ".decode_base64($2)/e'
+}
+alias lp='sudo netstat -lptu --numeric-hosts'
+alias lpt='sudo netstat -lpt --numeric-hosts'
+alias lpu='sudo netstat -lpu --numeric-hosts'
+alias lsd='ls -d */'
+alias lsh='ls -d .*'
+alias lss='ls -sSr'
+gerp() { grep $grepopt -ErIHn -Dskip --exclude-dir={.bzr,.git,.hg,.svn,_undo} "$@"; }
+gpgfp() { gpg --with-colons --fingerprint "$1" | awk -F: '/^fpr:/ {print $10}'; }
+alias hup='pkill -HUP -x'
+alias init='telinit'
+alias facl='getfacl -pt'
+alias ll='ls -l'
+alias loc='locate -A -b -i'
+alias logoff='logout'
+alias lspart='lsblk -o name,partlabel,size,fstype,label,mountpoint'
+mtr() { settitle "$HOSTNAME: mtr $*"; command mtr --show-ips "$@"; }
+alias mtrr='mtr --report-wide --report-cycles 3 --show-ips --aslookup --mpls'
+mvln() { mv "$1" "$2" && sym -v "$2" "$1"; }
+alias nmap='nmap --reason'
+alias nm-con='nmcli -f name,type,autoconnect,state,device con'
+alias plink='plink2 -no-antispoof'
+alias pring='prettyping'
+alias py='python3'
+alias py2='python2'
+alias py3='python3'
+alias re='hash -r && SILENT=1 . ~/.bashrc && echo reloaded .bashrc && :'
+alias ere='set -a && . ~/.bash_profile && set +a && echo reloaded .bash_profile && :'
+alias rawhois='do: whois -h whois.ra.net --'
+alias riswhois='do: whois -h riswhois.ripe.net --'
+alias rot13='tr N-ZA-Mn-za-m A-Za-z'
+sp() { printf '%s' "$@"; printf '\n'; }
+splitext() { split -dC "${2-32K}" "$1" "${1%.*}-" --additional-suffix=".${1##*.}"; }
+alias sudo='sudo ' # for alias expansion in sudo args
+alias telnets='telnet-ssl -z ssl'
+_thiscommand() { history 1 | sed "s/^\s*[0-9]\+\s\+([^)]\+)\s\+$1\s\+//"; }
+tigdiff() { diff -u "$@" | tig; }
+alias todo:='todo "$(_thiscommand todo:)" #'
+alias traceroute='traceroute -N3'
+alias tracert='traceroute -I'
+wim() { local file=$(which "$1") && [[ $file ]] && editor "$file" "${@:2}"; }
+xar() { xargs -r -d '\n' "$@"; }
+alias xf='ps xf -O ppid'
+alias xx='chmod a+rx'
+alias '~'='grep -E'
+alias '~~'='grep -E -i'
+-() { cd -; }
+alias ssdate='date "+%Y%m%d"'
+alias sdate='date "+%Y-%m-%d"'
+alias mmdate='date "+%Y-%m-%d %H:%M"'
+alias mdate='date "+%Y-%m-%d %H:%M:%S %z"'
+alias ldate='date "+%A, %B %-d, %Y %H:%M"'
+alias mboxdate='date "+%a %b %_d %H:%M:%S %Y"'
+alias mimedate='date "+%a, %d %b %Y %H:%M:%S %z"' # RFC 2822
+alias isodate='date "+%Y-%m-%dT%H:%M:%S%z"' # ISO 8601
+alias good='git bisect good'
+alias bad='git bisect bad'
+grepopt="--color=auto"
+alias grep='grep $grepopt'
+alias egrep='grep -E $grepopt'
+alias fgrep='grep -F $grepopt'
