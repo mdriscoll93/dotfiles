@@ -25,15 +25,15 @@ or using `kitty --debug-input` to detect keysyms
 
 | key                                       | description   |
 |-------------------------------------------|---------------|
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>r</kbd> | reload config |
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>e</kbd> | reload config |
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>d</kbd> | debug config  |
+| <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>r</kbd> | reload config |
+| <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>e</kbd> | reload config |
+| <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>d</kbd> | debug config  |
 
 ### session
 
 | key                                       | description                         |
 |-------------------------------------------|-------------------------------------|
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>s</kbd> | save current layout to session file |
+| <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>s</kbd> | save current layout to session file |
 
 ### tab
 
@@ -43,9 +43,9 @@ or using `kitty --debug-input` to detect keysyms
 | <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>⭢</kbd> | next tab           |
 | <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>,</kbd> | move tab backward  |
 | <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>.</kbd> | move tab forward   |
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>,</kbd>     | change tab title   |
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>c</kbd>     | create new tab     |
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>x</kbd>     | close window / tab |
+| <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>,</kbd>     | change tab title   |
+| <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>c</kbd>     | create new tab     |
+| <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>x</kbd>     | close window / tab |
 
 ### os window
 
@@ -58,19 +58,19 @@ or using `kitty --debug-input` to detect keysyms
 
 | key                                           | description                  |
 |-----------------------------------------------|------------------------------|
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>-</kbd>     | horizontal split             |
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>\\</kbd>     | vertial split                |
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>x</kbd>     | close window                 |
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>z</kbd>     | zoom (maxmize) window        |
+| <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>-</kbd>     | horizontal split             |
+| <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>\\</kbd>     | vertial split                |
+| <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>x</kbd>     | close window                 |
+| <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>z</kbd>     | zoom (maxmize) window        |
 | <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>r</kbd> | resize window                |
 | <kbd>ctrl</kbd>+<kbd>⭠</kbd>                  | to left window               |
 | <kbd>ctrl</kbd>+<kbd>⭢</kbd>                  | to right window              |
 | <kbd>ctrl</kbd>+<kbd>⭡</kbd>                  | to up window                 |
 | <kbd>ctrl</kbd>+<kbd>⭣</kbd>                  | to down window               |
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>h</kbd>     | to left window               |
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>l</kbd>     | to right window              |
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>k</kbd>     | to up window                 |
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>j</kbd>     | to down window               |
+| <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>h</kbd>     | to left window               |
+| <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>l</kbd>     | to right window              |
+| <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>k</kbd>     | to up window                 |
+| <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>j</kbd>     | to down window               |
 | <kbd>shift</kbd>+<kbd>⭠</kbd>                 | move current window to left  |
 | <kbd>shift</kbd>+<kbd>⭢</kbd>                 | move current window to right |
 | <kbd>shift</kbd>+<kbd>⭡</kbd>                 | move current window to up    |
@@ -93,13 +93,13 @@ or using `kitty --debug-input` to detect keysyms
 
 | key                                                       | description                                                                          |
 |-----------------------------------------------------------|--------------------------------------------------------------------------------------|
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>t</kbd>                 | kitten themes                                                                        |
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>space</kbd>             | copy pasting with hints like [tmux-thumbs](https://github.com/fcsonline/tmux-thumbs) |
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>ctrl</kbd>+<kbd>a</kbd> | send real <kbd>ctrl</kbd>+<kbd>a</kbd> (emacs shortcut <kbd>Home</kbd>)              |
+| <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>t</kbd>                 | kitten themes                                                                        |
+| <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>space</kbd>             | copy pasting with hints like [tmux-thumbs](https://github.com/fcsonline/tmux-thumbs) |
+| <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>ctrl</kbd>+<kbd>k</kbd> | send real <kbd>ctrl</kbd>+<kbd>k</kbd> (emacs shortcut <kbd>Home</kbd>)              |
 
 ## session restore
 
-> if you have used <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>s</kbd> generate the session, you do not need this.
+> if you have used <kbd>ctrl</kbd>+<kbd>k</kbd>><kbd>s</kbd> generate the session, you do not need this.
 
 you can create your session file under `~/.config/kitty`, let's say the filename is `session.conf`
 
