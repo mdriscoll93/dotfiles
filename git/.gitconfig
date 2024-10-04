@@ -16,3 +16,22 @@
         excludesfile = ~/.cvsignore
 [init]
         defaultBranch = main
+[safe]
+	directory = /home/mdriscoll/.cache/yay/blesh
+	directory = /home/mdriscoll/.cache/yay/cava
+	directory = /home/mdriscoll/.cache/yay/dl-switch
+	directory = /home/mdriscoll/.cache/yay/winbox
+	directory = /home/mdriscoll/.cache/yay/visual-studio-code-bin
+	directory = /home/mdriscoll/.cache/yay/drawio-desktop-bin
+	directory = /home/mdriscoll/.cache/yay/galaxybudsclient-bin
+	directory = /home/mdriscoll/.cache/yay/google-chrome
+	directory = /home/mdriscoll/.cache/yay/keybase-bin
+	directory = /home/mdriscoll/.cache/yay/libpamac-full
+	directory = /home/mdriscoll/.cache/yay/ocs-url
+	directory = /home/mdriscoll/.cache/yay/pacman-cleanup-hook
+	directory = /home/mdriscoll/.cache/yay/realvnc-vnc-viewer
+	directory = /home/mdriscoll/.cache/yay/sec
+	directory = /home/mdriscoll/.cache/yay/sidekick-browser-stable-bin
+	directory = /home/mdriscoll/.cache/yay/spotify
+	directory = /home/mdriscoll/.cache/yay/ssh-import-id
+	directory = /home/mdriscoll/.cache/yay/tio

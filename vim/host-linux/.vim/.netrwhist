@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/usr/share/libalpm/hooks'
+let g:netrw_dirhist_5='/etc'
+let g:netrw_dirhist_4='/etc/pacman.d'
+let g:netrw_dirhist_3='/etc/pacman.d/hooks'
+let g:netrw_dirhist_2='/home/mdriscoll'
+let g:netrw_dirhist_1='/home/mdriscoll/.config/kitty'
+let g:netrw_dirhist_0='/home/mdriscoll/.config/libvirt'
+let g:netrw_dirhist_9='/home/mdriscoll/.config'
+let g:netrw_dirhist_8='/home/mdriscoll/.config/hypr'
+let g:netrw_dirhist_7='/home/mdriscoll/.config/hypr/scripts'
