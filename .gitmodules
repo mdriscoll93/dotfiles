@@ -19,3 +19,84 @@
 [submodule "vim/host-linux/.vim/bundle/vim-colors-pencil"]
 	path = vim/host-linux/.vim/bundle/vim-colors-pencil
 	url = https://github.com/reedes/vim-colors-pencil.git
+[submodule "vim/.vim/plugged/CSApprox"]
+	path = vim/.vim/plugged/CSApprox
+	url = https://github.com/vim-scripts/CSApprox.git
+[submodule "vim/.vim/plugged/ale"]
+	path = vim/.vim/plugged/ale
+	url = https://github.com/dense-analysis/ale.git
+[submodule "vim/.vim/plugged/delimitMate"]
+	path = vim/.vim/plugged/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
+[submodule "vim/.vim/plugged/fzf.vim"]
+	path = vim/.vim/plugged/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "vim/.vim/plugged/grep.vim"]
+	path = vim/.vim/plugged/grep.vim
+	url = https://github.com/vim-scripts/grep.vim.git
+[submodule "vim/.vim/plugged/indentLine"]
+	path = vim/.vim/plugged/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
+[submodule "vim/.vim/plugged/jedi-vim"]
+	path = vim/.vim/plugged/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "vim/.vim/plugged/nerdtree"]
+	path = vim/.vim/plugged/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "vim/.vim/plugged/requirements.txt.vim"]
+	path = vim/.vim/plugged/requirements.txt.vim
+	url = https://github.com/raimon49/requirements.txt.vim.git
+[submodule "vim/.vim/plugged/tagbar"]
+	path = vim/.vim/plugged/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "vim/.vim/plugged/ultisnips"]
+	path = vim/.vim/plugged/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "vim/.vim/plugged/vim-airline-themes"]
+	path = vim/.vim/plugged/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "vim/.vim/plugged/vim-airline"]
+	path = vim/.vim/plugged/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "vim/.vim/plugged/vim-bootstrap-updater"]
+	path = vim/.vim/plugged/vim-bootstrap-updater
+	url = https://github.com/editor-bootstrap/vim-bootstrap-updater.git
+[submodule "vim/.vim/plugged/vim-colorschemes"]
+	path = vim/.vim/plugged/vim-colorschemes
+	url = https://github.com/Mizux/vim-colorschemes.git
+[submodule "vim/.vim/plugged/vim-commentary"]
+	path = vim/.vim/plugged/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "vim/.vim/plugged/vim-fugitive"]
+	path = vim/.vim/plugged/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/.vim/plugged/vim-gitgutter"]
+	path = vim/.vim/plugged/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "vim/.vim/plugged/vim-go"]
+	path = vim/.vim/plugged/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "vim/.vim/plugged/vim-lua-ftplugin"]
+	path = vim/.vim/plugged/vim-lua-ftplugin
+	url = https://github.com/xolox/vim-lua-ftplugin.git
+[submodule "vim/.vim/plugged/vim-lua-inspect"]
+	path = vim/.vim/plugged/vim-lua-inspect
+	url = https://github.com/xolox/vim-lua-inspect.git
+[submodule "vim/.vim/plugged/vim-misc"]
+	path = vim/.vim/plugged/vim-misc
+	url = https://github.com/xolox/vim-misc.git
+[submodule "vim/.vim/plugged/vim-nerdtree-tabs"]
+	path = vim/.vim/plugged/vim-nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "vim/.vim/plugged/vim-rhubarb"]
+	path = vim/.vim/plugged/vim-rhubarb
+	url = https://github.com/tpope/vim-rhubarb.git
+[submodule "vim/.vim/plugged/vim-session"]
+	path = vim/.vim/plugged/vim-session
+	url = https://github.com/xolox/vim-session.git
+[submodule "vim/.vim/plugged/vim-snippets"]
+	path = vim/.vim/plugged/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule "vim/.vim/plugged/vimproc.vim"]
+	path = vim/.vim/plugged/vimproc.vim
+	url = https://github.com/Shougo/vimproc.vim.git
