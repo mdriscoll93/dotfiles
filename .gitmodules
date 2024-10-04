@@ -1,5 +1,5 @@
-[submodule "vim/host-linux/.vim/bundle/nerdtree"]
-	path = vim/host-linux/.vim/bundle/nerdtree
+[submodule "vim/host-linux/.vim/pack/plugin/nerdtree"]
+	path = vim/host-linux/.vim/pack/plugin/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "vim/host-linux/.vim/bundle/ale"]
 	path = vim/host-linux/.vim/bundle/ale
@@ -13,3 +13,6 @@
 [submodule "vim/host-linux/.vim/bundle/vim-sensible"]
 	path = vim/host-linux/.vim/bundle/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
+[submodule "vim/host-linux/.vim/bundle/nerdtree"]
+	path = vim/host-linux/.vim/bundle/nerdtree
+	url = https://github.com/preservim/nerdtree.git
