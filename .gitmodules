@@ -16,3 +16,6 @@
 [submodule "vim/host-linux/.vim/bundle/nerdtree"]
 	path = vim/host-linux/.vim/bundle/nerdtree
 	url = https://github.com/preservim/nerdtree.git
+[submodule "vim/host-linux/.vim/bundle/vim-colors-pencil"]
+	path = vim/host-linux/.vim/bundle/vim-colors-pencil
+	url = https://github.com/reedes/vim-colors-pencil.git
