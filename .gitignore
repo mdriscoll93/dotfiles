@@ -76,6 +76,9 @@ bin/.*.swp
 # Concourse CLI; changes depending on target version
 bin/fly
 
+# Exclude private scripts directory in ~/bin/private
+.local/bin/private
+
 # Config for local daemons (e.g. squid)
 !etc
 !etc/*
@@ -126,3 +129,4 @@ etc/clusto*.conf
 # Random arbitrary not-really-a-config file,
 # for use with hexdump
 !.config/hexdump.format
+local/.local/bin/private/

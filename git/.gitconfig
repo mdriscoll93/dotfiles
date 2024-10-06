@@ -12,8 +12,9 @@
         helper = !/usr/bin/gh auth git-credential
 [core]
         editor = vim
-        autocrlf = input
+	autocrlf = input
         excludesfile = ~/.cvsignore
+	safecrlf = true
 [init]
         defaultBranch = main
 [safe]
