@@ -100,3 +100,6 @@
 [submodule "vim/.vim/plugged/vimproc.vim"]
 	path = vim/.vim/plugged/vimproc.vim
 	url = https://github.com/Shougo/vimproc.vim.git
+[submodule "local/.local/bin/single-file-cli"]
+	path = local/.local/bin/single-file-cli
+	url = https://github.com/gildas-lormeau/single-file-cli.git
