@@ -1,0 +1,22 @@
+vm1:
+  memory: 512
+  numcpus: 2
+  nets: 
+   - default
+  pool: default
+  image: centos8stream
+  reservedns: True
+  reservehost: False
+vm2:
+  memory: 512
+  numcpus: 2
+  cloudinit: false
+  nets: 
+   - default
+  disks:
+   - 10
+  pool: default
+  image: centos8stream
+  reservedns: False
+  cmds:
+   - echo this stuff works > /tmp/result.txt

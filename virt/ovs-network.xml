@@ -1,0 +1,7 @@
+<network>
+  <name>ovs</name>
+  <uuid>f58cad29-0455-439a-b533-8362669cec92</uuid>
+  <forward mode='bridge'/>
+  <bridge name='ovsbr0'/>
+  <virtualport type='openvswitch'/>
+</network>
