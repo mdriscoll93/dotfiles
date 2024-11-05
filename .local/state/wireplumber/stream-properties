@@ -1,0 +1,23 @@
+[stream-properties]
+Audio/Sink:node.name:alsa_output.usb-Burr-Brown_from_TI_USB_Audio_DAC-00.iec958-ac3-surround-51={"channelVolumes":[1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000], "channelMap":["FL", "FR", "RL", "RR", "FC", "LFE"]}
+Audio/Sink:node.name:alsa_output.usb-Burr-Brown_from_TI_USB_Audio_DAC-00.pro-output-0={"channelVolumes":[1.157635, 1.157635], "channelMap":["AUX0", "AUX1"]}
+Audio/Sink:node.name:alsa_output.usb-Generic_USB_Audio_200901010001-00.pro-output-0={"channelMap":["AUX0", "AUX1"], "channelVolumes":[1.000000, 1.000000]}
+Audio/Sink:node.name:alsa_output.usb-Generic_USB_Audio_200901010001-00.pro-output-1={"channelVolumes":[0.274617, 0.274617], "channelMap":["AUX0", "AUX1"]}
+Audio/Sink:node.name:auto_null={"channelVolumes":[1.000000, 1.000000], "mute":false, "channelMap":["FL", "FR"], "volume":1.000000}
+Audio/Source:media.name:Galaxy\sBuds+\s(9DF1)\soutput={"mute":true, "channelVolumes":[1.000000], "channelMap":["MONO"], "volume":1.000000}
+Audio/Source:media.name:WH-1000XM5\soutput={"mute":false, "channelVolumes":[1.000000], "volume":1.000000, "channelMap":["MONO"]}
+Audio/Source:node.name:alsa_input.usb-Generic_USB_Audio_200901010001-00.pro-input-0={"channelMap":["AUX0", "AUX1"], "channelVolumes":[0.728985, 0.728985]}
+Audio/Source:node.name:alsa_input.usb-Microsoft_Microsoft___LifeCam_VX-2000-02.pro-input-0={"channelVolumes":[1.000000], "channelMap":["AUX0"]}
+Input/Audio/Internal:media.name:Bluetooth\sinternal\scapture\sstream\sfor\sGalaxy\sBuds+\s(9DF1)\sinput={"mute":false, "channelVolumes":[1.000000], "channelMap":["MONO"], "volume":1.000000}
+Input/Audio/Internal:media.name:Bluetooth\sinternal\scapture\sstream\sfor\sWH-1000XM5\sinput={"mute":false, "channelVolumes":[1.000000], "volume":1.000000, "channelMap":["MONO"]}
+Input/Audio:application.id:org.PulseAudio.pavucontrol={"volume":1.000000, "channelMap":["MONO"], "channelVolumes":[1.000000], "mute":false}
+Input/Audio:application.id:org.kde.plasma-pa={"mute":false, "channelVolumes":[1.000000], "volume":1.000000, "channelMap":["MONO"]}
+Input/Audio:application.name:Google\sChrome\sinput={"channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000], "volume":1.000000, "mute":false}
+Input/Audio:media.role:Communication={"channelVolumes":[1.000000], "channelMap":["MONO"]}
+Output/Audio:application.name:Chromium={"channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000], "volume":1.000000, "mute":false}
+Output/Audio:application.name:Google\sChrome={"mute":false, "channelVolumes":[0.110589, 0.110589], "volume":1.000000, "channelMap":["FL", "FR"]}
+Output/Audio:media.name:baby\sdrisc\s(codec\saptX)={"channelVolumes":[1.000000, 1.000000], "mute":false, "channelMap":["FL", "FR"], "volume":1.000000}
+Output/Audio:media.role:Communication={"channelVolumes":[1.000000], "channelMap":["MONO"], "mute":false, "volume":1.000000}
+Output/Audio:media.role:Music={"volume":1.000000, "channelVolumes":[0.274579, 0.274579], "channelMap":["FL", "FR"], "mute":false}
+Output/Audio:media.role:Notification={"mute":false, "channelVolumes":[0.000125, 0.000125], "volume":1.000000, "channelMap":["FL", "FR"]}
+Output/Audio:media.role:Test={"channelVolumes":[1.000000], "mute":false, "channelMap":["RR"], "volume":1.000000}

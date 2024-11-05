@@ -1,0 +1,863 @@
+[2024-10-14 14:22:06,251]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("securetoken.googleapis.com")), port: None, path: "/v1/token", query: Some("key=AIzaSyBdy3O3S9hrdayLJxJ7mriBR4qgUaUygAs"), fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/x-www-form-urlencoded"} }
+Body grant_type=refresh_token&refresh_token=AMf-vBxfucgJFxAH6jSehN9o6ukHD_aDxZUnq3T8eiXs-xLN9f8P0oeEh2TfUsuf-8GBubF-xX8INUPVJlaaZas3KTCoEpf3BJz_nc1hrX2KwtZqEVsqWd3QRIWOSc0bbK7NOCZIZNl0GDtdenPYeohKOGJ6K0OZDPhFw4SQjvyWHcpaBoJySXkyX9ArvCjJu0lzVQ_O7Ecr13ItiWJpWI7UGrYFZ-D1xFTzBTI1tam2Hv44RmvjZDSNbBPsj0OWQsUzf0bc5wFuuQZqE06S18O6g43ZmcjSPwOLS0h1F1h34sNWA47uRJYRcjbLyfcUq_kmHXQ724u610iEp_WsUWGfJ2najfeym99VxWNDSF9_rhdaJntWs18
+[2024-10-14 14:22:06,441]: Response { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("securetoken.googleapis.com")), port: None, path: "/v1/token", query: Some("key=AIzaSyBdy3O3S9hrdayLJxJ7mriBR4qgUaUygAs"), fragment: None }, status: 200, headers: {"pragma": "no-cache", "cache-control": "no-cache, no-store, max-age=0, must-revalidate", "date": "Mon, 14 Oct 2024 19:22:07 GMT", "expires": "Mon, 01 Jan 1990 00:00:00 GMT", "content-type": "application/json; charset=UTF-8", "vary": "Origin", "vary": "X-Origin", "vary": "Referer", "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000", "server": "ESF", "x-content-type-options": "nosniff", "x-xss-protection": "0", "x-frame-options": "SAMEORIGIN"} }
+[2024-10-14 14:22:06,441]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": {
+    "input": {
+      "folder": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.513272Z",
+          "objectId": "nM7AnONRgRemYIrA3Uhd0e",
+          "objectUid": "nM7AnONRgRemYIrA3Uhd0e",
+          "permissions_ts": "2023-07-01T19:04:21.513272Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.513272Z"
+          }
+        }
+      ],
+      "forceRefresh": false,
+      "genericStringObject": [],
+      "notebook": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2024-04-12T23:11:52.532739Z",
+          "objectId": "DwR2oDIMkzrcNzi3OYMPgp",
+          "objectUid": "DwR2oDIMkzrcNzi3OYMPgp",
+          "permissions_ts": "2024-03-31T18:44:12.816898Z",
+          "revision": {
+            "revisionTs": "2024-03-31T18:44:12.816898Z"
+          }
+        }
+      ],
+      "workflow": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.619545Z",
+          "objectId": "9ih4kQIg6IvwFpw7pDlp26",
+          "objectUid": "9ih4kQIg6IvwFpw7pDlp26",
+          "permissions_ts": "2023-07-01T19:04:21.619545Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.619545Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.584113Z",
+          "objectId": "DAm7i0tZzhopqgoqtpqJBN",
+          "objectUid": "DAm7i0tZzhopqgoqtpqJBN",
+          "permissions_ts": "2023-07-01T19:04:21.584113Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.584113Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.551661Z",
+          "objectId": "feUq3g2GeDTeW3JeYm1wzY",
+          "objectUid": "feUq3g2GeDTeW3JeYm1wzY",
+          "permissions_ts": "2023-07-01T19:04:21.551661Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.551661Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.650839Z",
+          "objectId": "VfG7RQIB3J1MCXKP6cOiTe",
+          "objectUid": "VfG7RQIB3J1MCXKP6cOiTe",
+          "permissions_ts": "2023-07-01T19:04:21.650839Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.650839Z"
+          }
+        }
+      ]
+    }
+  },
+  "query": "fragment MetadataFields on ObjectMetadata {\n  UID\n  currentEditor {\n    email\n  }\n  metadataLastUpdatedTs\n  lastEditedBy {\n    firebase_uid\n  }\n  revision {\n    revisionTs\n  }\n  trashedTs\n  folderUid\n  isWelcomeObject\n  creator {\n    firebase_uid\n  }\n}\n\nfragment PermissionsFields on ObjectPermissions {\n  space {\n    id\n    type\n  }\n  permissionsLastUpdatedTs\n}\n\nquery GetUpdatedCloudObjects($input: GetUpdatedCloudObjectsInput!) {\n  getUpdatedCloudObjects(input: $input) {\n    notebooks {\n      titleName\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    workflows {\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    folders {\n      name\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    genericStringObjects {\n      serializedModel\n      format\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    deletedObjectIds {\n      notebooks\n      notebookUIDs\n      workflows\n      workflowUIDs\n      folderUIDs\n      genericStringObjectUIDs\n    }\n    userProfiles {\n      email\n      display_name\n      photo_url\n      firebase_uid\n    }\n    actionHistories {\n      uid\n      objectType\n      actions {\n        __typename\n        ... on SingleAction {\n          actionType\n          timestamp\n          processedAtTimestamp\n        }\n        ... on BundledActions {\n          actionType\n          count\n          oldestTimestamp\n          latestTimestamp\n          latestProcessedAtTimestamp\n        }\n      }\n      latestProcessedAtTimestamp\n    }\n  }\n}\n",
+  "operationName": "GetUpdatedCloudObjects"
+}
+[2024-10-14 14:22:06,609]: Response { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, status: 200, headers: {"content-type": "application/json", "set-cookie": "rl_anonymous_id=1c002961-ea54-434d-b990-eafb4b83f17a; Path=/; Domain=warp.dev; Max-Age=31536000", "x-frame-options": "DENY", "content-length": "279", "date": "Mon, 14 Oct 2024 19:22:08 GMT", "server": "Google Frontend", "x-cloud-trace-context": "89a431213b9574784560da097457bcd5/7101475865385407562", "traceparent": "00-89a431213b9574784560da097457bcd5-628d82aca14e944a-00", "via": "1.1 google", "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"} }
+[2024-10-14 14:22:49,462]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": null,
+  "query": "query GetTeamsMetadataForUser {\n  user {\n    teams {\n      id\n      uid\n      name\n      creatorId\n      inviteCode {\n        id\n        code\n      }\n      members {\n        id\n        email\n      }\n      pendingEmailInvites {\n        code\n        inviteeEmail\n        createdAt\n        expired\n      }\n      inviteLinkDomainRestrictions {\n        uid\n        domain\n      }\n      isInviteLinkEnabled\n      isDiscoverable\n      billingMetadata {\n        customerType\n        delinquencyStatus\n        tier {\n          name\n          description\n          warpAiPolicy {\n            limit\n          }\n          teamSizePolicy {\n            isUnlimited\n            limit\n          }\n          sharedNotebooksPolicy {\n            isUnlimited\n            limit\n          }\n          sharedWorkflowsPolicy {\n            isUnlimited\n            limit\n          }\n          sessionSharingPolicy {\n            enabled\n          }\n        }\n      }\n      stripeCustomerId\n      organizationSettings {\n        llmSettings {\n          enabled\n        }\n        telemetrySettings {\n          forceEnabled\n        }\n      }\n      isEligibleForDiscovery\n      hasBillingHistory\n    }\n    joinable_teams {\n      teamUid\n      numMembers\n      name\n      teamAcceptingInvites\n    }\n    # We're temporarily piggy-backing off of the polled teams metadata\n    # query to also query experiment state.\n    experiments\n  }\n}\n",
+  "operationName": "GetTeamsMetadataForUser"
+}
+[2024-10-14 14:22:49,540]: Response { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, status: 200, headers: {"content-type": "application/json", "set-cookie": "rl_anonymous_id=e61ba683-15a8-4b2f-a438-d76207695b54; Path=/; Domain=warp.dev; Max-Age=31536000", "x-frame-options": "DENY", "content-length": "94", "date": "Mon, 14 Oct 2024 19:22:51 GMT", "server": "Google Frontend", "x-cloud-trace-context": "bbf61a188b42201211dd99800e3ef151/7816005931607634823", "traceparent": "00-bbf61a188b42201211dd99800e3ef151-6c7807fbdbd1b387-00", "via": "1.1 google", "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"} }
+[2024-10-14 14:28:38,545]: Request { method: GET, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/client_version", query: Some("include_changelogs=false"), fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "authorization": Sensitive} }
+[2024-10-14 14:28:38,729]: Response { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/client_version", query: Some("include_changelogs=false"), fragment: None }, status: 200, headers: {"content-type": "application/json", "set-cookie": "rl_anonymous_id=714fd574-29ae-40a6-97a5-63675060bcc4; Path=/; Domain=warp.dev; Max-Age=31536000", "x-frame-options": "DENY", "content-length": "426", "date": "Mon, 14 Oct 2024 19:28:40 GMT", "server": "Google Frontend", "traceparent": "00-fd0aca0afeb790b1da1144e49a5bac57-995c3e5cfb397b98-00", "x-cloud-trace-context": "fd0aca0afeb790b1da1144e49a5bac57/11050776154733116312", "via": "1.1 google", "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"} }
+[2024-10-14 14:33:27,046]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": {
+    "input": {
+      "folder": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.513272Z",
+          "objectId": "nM7AnONRgRemYIrA3Uhd0e",
+          "objectUid": "nM7AnONRgRemYIrA3Uhd0e",
+          "permissions_ts": "2023-07-01T19:04:21.513272Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.513272Z"
+          }
+        }
+      ],
+      "forceRefresh": false,
+      "genericStringObject": [],
+      "notebook": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2024-04-12T23:11:52.532739Z",
+          "objectId": "DwR2oDIMkzrcNzi3OYMPgp",
+          "objectUid": "DwR2oDIMkzrcNzi3OYMPgp",
+          "permissions_ts": "2024-03-31T18:44:12.816898Z",
+          "revision": {
+            "revisionTs": "2024-03-31T18:44:12.816898Z"
+          }
+        }
+      ],
+      "workflow": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.619545Z",
+          "objectId": "9ih4kQIg6IvwFpw7pDlp26",
+          "objectUid": "9ih4kQIg6IvwFpw7pDlp26",
+          "permissions_ts": "2023-07-01T19:04:21.619545Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.619545Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.584113Z",
+          "objectId": "DAm7i0tZzhopqgoqtpqJBN",
+          "objectUid": "DAm7i0tZzhopqgoqtpqJBN",
+          "permissions_ts": "2023-07-01T19:04:21.584113Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.584113Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.551661Z",
+          "objectId": "feUq3g2GeDTeW3JeYm1wzY",
+          "objectUid": "feUq3g2GeDTeW3JeYm1wzY",
+          "permissions_ts": "2023-07-01T19:04:21.551661Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.551661Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.650839Z",
+          "objectId": "VfG7RQIB3J1MCXKP6cOiTe",
+          "objectUid": "VfG7RQIB3J1MCXKP6cOiTe",
+          "permissions_ts": "2023-07-01T19:04:21.650839Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.650839Z"
+          }
+        }
+      ]
+    }
+  },
+  "query": "fragment MetadataFields on ObjectMetadata {\n  UID\n  currentEditor {\n    email\n  }\n  metadataLastUpdatedTs\n  lastEditedBy {\n    firebase_uid\n  }\n  revision {\n    revisionTs\n  }\n  trashedTs\n  folderUid\n  isWelcomeObject\n  creator {\n    firebase_uid\n  }\n}\n\nfragment PermissionsFields on ObjectPermissions {\n  space {\n    id\n    type\n  }\n  permissionsLastUpdatedTs\n}\n\nquery GetUpdatedCloudObjects($input: GetUpdatedCloudObjectsInput!) {\n  getUpdatedCloudObjects(input: $input) {\n    notebooks {\n      titleName\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    workflows {\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    folders {\n      name\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    genericStringObjects {\n      serializedModel\n      format\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    deletedObjectIds {\n      notebooks\n      notebookUIDs\n      workflows\n      workflowUIDs\n      folderUIDs\n      genericStringObjectUIDs\n    }\n    userProfiles {\n      email\n      display_name\n      photo_url\n      firebase_uid\n    }\n    actionHistories {\n      uid\n      objectType\n      actions {\n        __typename\n        ... on SingleAction {\n          actionType\n          timestamp\n          processedAtTimestamp\n        }\n        ... on BundledActions {\n          actionType\n          count\n          oldestTimestamp\n          latestTimestamp\n          latestProcessedAtTimestamp\n        }\n      }\n      latestProcessedAtTimestamp\n    }\n  }\n}\n",
+  "operationName": "GetUpdatedCloudObjects"
+}
+[2024-10-14 14:33:27,244]: Response { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, status: 200, headers: {"content-type": "application/json", "set-cookie": "rl_anonymous_id=c521c190-bc9c-452a-b03f-91f0778381cb; Path=/; Domain=warp.dev; Max-Age=31536000", "x-frame-options": "DENY", "content-length": "279", "date": "Mon, 14 Oct 2024 19:33:28 GMT", "server": "Google Frontend", "traceparent": "00-e86abdcdcbcf58806005fdd99648faa2-a40521602dce0cfe-00", "x-cloud-trace-context": "e86abdcdcbcf58806005fdd99648faa2/11818889494072790270", "via": "1.1 google", "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"} }
+[2024-10-14 14:34:25,231]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": null,
+  "query": "query GetTeamsMetadataForUser {\n  user {\n    teams {\n      id\n      uid\n      name\n      creatorId\n      inviteCode {\n        id\n        code\n      }\n      members {\n        id\n        email\n      }\n      pendingEmailInvites {\n        code\n        inviteeEmail\n        createdAt\n        expired\n      }\n      inviteLinkDomainRestrictions {\n        uid\n        domain\n      }\n      isInviteLinkEnabled\n      isDiscoverable\n      billingMetadata {\n        customerType\n        delinquencyStatus\n        tier {\n          name\n          description\n          warpAiPolicy {\n            limit\n          }\n          teamSizePolicy {\n            isUnlimited\n            limit\n          }\n          sharedNotebooksPolicy {\n            isUnlimited\n            limit\n          }\n          sharedWorkflowsPolicy {\n            isUnlimited\n            limit\n          }\n          sessionSharingPolicy {\n            enabled\n          }\n        }\n      }\n      stripeCustomerId\n      organizationSettings {\n        llmSettings {\n          enabled\n        }\n        telemetrySettings {\n          forceEnabled\n        }\n      }\n      isEligibleForDiscovery\n      hasBillingHistory\n    }\n    joinable_teams {\n      teamUid\n      numMembers\n      name\n      teamAcceptingInvites\n    }\n    # We're temporarily piggy-backing off of the polled teams metadata\n    # query to also query experiment state.\n    experiments\n  }\n}\n",
+  "operationName": "GetTeamsMetadataForUser"
+}
+[2024-10-14 14:34:25,311]: Response { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, status: 200, headers: {"content-type": "application/json", "set-cookie": "rl_anonymous_id=57c2cd90-e859-4459-83b7-2cd944513d64; Path=/; Domain=warp.dev; Max-Age=31536000", "x-frame-options": "DENY", "content-length": "94", "date": "Mon, 14 Oct 2024 19:34:26 GMT", "server": "Google Frontend", "traceparent": "00-d74cb3ae92beda00cef4bd699cfd637f-bb5be47f1eb5fe4c-00", "x-cloud-trace-context": "d74cb3ae92beda00cef4bd699cfd637f/13500635542600416844", "via": "1.1 google", "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"} }
+[2024-10-14 14:38:38,546]: Request { method: GET, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/client_version", query: Some("include_changelogs=false"), fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "authorization": Sensitive} }
+[2024-10-14 14:38:38,704]: Response { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/client_version", query: Some("include_changelogs=false"), fragment: None }, status: 200, headers: {"content-type": "application/json", "set-cookie": "rl_anonymous_id=09d477e0-3fcd-4ec2-9f35-14da69fc36d4; Path=/; Domain=warp.dev; Max-Age=31536000", "x-frame-options": "DENY", "content-length": "426", "date": "Mon, 14 Oct 2024 19:38:40 GMT", "server": "Google Frontend", "traceparent": "00-595855733f3ea1c4bba628f8ac0b9e08-63ea7d00d329754c-00", "x-cloud-trace-context": "595855733f3ea1c4bba628f8ac0b9e08/7199704396801340748", "via": "1.1 google", "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"} }
+[2024-10-14 14:39:27,715]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": null,
+  "query": "query IsTeamsTester {\n    isTeamsTester\n}\n",
+  "operationName": "IsTeamsTester"
+}
+[2024-10-14 14:39:27,789]: Response { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, status: 200, headers: {"content-type": "application/json", "set-cookie": "rl_anonymous_id=79a9ae93-0cbc-43cc-8b0a-17ccbb87e88b; Path=/; Domain=warp.dev; Max-Age=31536000", "x-frame-options": "DENY", "content-length": "31", "date": "Mon, 14 Oct 2024 19:39:29 GMT", "server": "Google Frontend", "x-cloud-trace-context": "84a6513cfc7ec409c4800e6f84dfb449/2672504723381210461", "traceparent": "00-84a6513cfc7ec409c4800e6f84dfb449-2516a4e2e9b0cd5d-00", "via": "1.1 google", "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"} }
+[2024-10-14 14:41:40,955]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": {
+    "input": {
+      "folder": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.513272Z",
+          "objectId": "nM7AnONRgRemYIrA3Uhd0e",
+          "objectUid": "nM7AnONRgRemYIrA3Uhd0e",
+          "permissions_ts": "2023-07-01T19:04:21.513272Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.513272Z"
+          }
+        }
+      ],
+      "forceRefresh": false,
+      "genericStringObject": [],
+      "notebook": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2024-04-12T23:11:52.532739Z",
+          "objectId": "DwR2oDIMkzrcNzi3OYMPgp",
+          "objectUid": "DwR2oDIMkzrcNzi3OYMPgp",
+          "permissions_ts": "2024-03-31T18:44:12.816898Z",
+          "revision": {
+            "revisionTs": "2024-03-31T18:44:12.816898Z"
+          }
+        }
+      ],
+      "workflow": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.619545Z",
+          "objectId": "9ih4kQIg6IvwFpw7pDlp26",
+          "objectUid": "9ih4kQIg6IvwFpw7pDlp26",
+          "permissions_ts": "2023-07-01T19:04:21.619545Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.619545Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.584113Z",
+          "objectId": "DAm7i0tZzhopqgoqtpqJBN",
+          "objectUid": "DAm7i0tZzhopqgoqtpqJBN",
+          "permissions_ts": "2023-07-01T19:04:21.584113Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.584113Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.551661Z",
+          "objectId": "feUq3g2GeDTeW3JeYm1wzY",
+          "objectUid": "feUq3g2GeDTeW3JeYm1wzY",
+          "permissions_ts": "2023-07-01T19:04:21.551661Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.551661Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.650839Z",
+          "objectId": "VfG7RQIB3J1MCXKP6cOiTe",
+          "objectUid": "VfG7RQIB3J1MCXKP6cOiTe",
+          "permissions_ts": "2023-07-01T19:04:21.650839Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.650839Z"
+          }
+        }
+      ]
+    }
+  },
+  "query": "fragment MetadataFields on ObjectMetadata {\n  UID\n  currentEditor {\n    email\n  }\n  metadataLastUpdatedTs\n  lastEditedBy {\n    firebase_uid\n  }\n  revision {\n    revisionTs\n  }\n  trashedTs\n  folderUid\n  isWelcomeObject\n  creator {\n    firebase_uid\n  }\n}\n\nfragment PermissionsFields on ObjectPermissions {\n  space {\n    id\n    type\n  }\n  permissionsLastUpdatedTs\n}\n\nquery GetUpdatedCloudObjects($input: GetUpdatedCloudObjectsInput!) {\n  getUpdatedCloudObjects(input: $input) {\n    notebooks {\n      titleName\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    workflows {\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    folders {\n      name\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    genericStringObjects {\n      serializedModel\n      format\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    deletedObjectIds {\n      notebooks\n      notebookUIDs\n      workflows\n      workflowUIDs\n      folderUIDs\n      genericStringObjectUIDs\n    }\n    userProfiles {\n      email\n      display_name\n      photo_url\n      firebase_uid\n    }\n    actionHistories {\n      uid\n      objectType\n      actions {\n        __typename\n        ... on SingleAction {\n          actionType\n          timestamp\n          processedAtTimestamp\n        }\n        ... on BundledActions {\n          actionType\n          count\n          oldestTimestamp\n          latestTimestamp\n          latestProcessedAtTimestamp\n        }\n      }\n      latestProcessedAtTimestamp\n    }\n  }\n}\n",
+  "operationName": "GetUpdatedCloudObjects"
+}
+[2024-10-14 14:41:40,956]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": null,
+  "query": "query GetTeamsMetadataForUser {\n  user {\n    teams {\n      id\n      uid\n      name\n      creatorId\n      inviteCode {\n        id\n        code\n      }\n      members {\n        id\n        email\n      }\n      pendingEmailInvites {\n        code\n        inviteeEmail\n        createdAt\n        expired\n      }\n      inviteLinkDomainRestrictions {\n        uid\n        domain\n      }\n      isInviteLinkEnabled\n      isDiscoverable\n      billingMetadata {\n        customerType\n        delinquencyStatus\n        tier {\n          name\n          description\n          warpAiPolicy {\n            limit\n          }\n          teamSizePolicy {\n            isUnlimited\n            limit\n          }\n          sharedNotebooksPolicy {\n            isUnlimited\n            limit\n          }\n          sharedWorkflowsPolicy {\n            isUnlimited\n            limit\n          }\n          sessionSharingPolicy {\n            enabled\n          }\n        }\n      }\n      stripeCustomerId\n      organizationSettings {\n        llmSettings {\n          enabled\n        }\n        telemetrySettings {\n          forceEnabled\n        }\n      }\n      isEligibleForDiscovery\n      hasBillingHistory\n    }\n    joinable_teams {\n      teamUid\n      numMembers\n      name\n      teamAcceptingInvites\n    }\n    # We're temporarily piggy-backing off of the polled teams metadata\n    # query to also query experiment state.\n    experiments\n  }\n}\n",
+  "operationName": "GetTeamsMetadataForUser"
+}
+[2024-10-14 14:41:43,142]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": null,
+  "query": "query GetTeamsMetadataForUser {\n  user {\n    teams {\n      id\n      uid\n      name\n      creatorId\n      inviteCode {\n        id\n        code\n      }\n      members {\n        id\n        email\n      }\n      pendingEmailInvites {\n        code\n        inviteeEmail\n        createdAt\n        expired\n      }\n      inviteLinkDomainRestrictions {\n        uid\n        domain\n      }\n      isInviteLinkEnabled\n      isDiscoverable\n      billingMetadata {\n        customerType\n        delinquencyStatus\n        tier {\n          name\n          description\n          warpAiPolicy {\n            limit\n          }\n          teamSizePolicy {\n            isUnlimited\n            limit\n          }\n          sharedNotebooksPolicy {\n            isUnlimited\n            limit\n          }\n          sharedWorkflowsPolicy {\n            isUnlimited\n            limit\n          }\n          sessionSharingPolicy {\n            enabled\n          }\n        }\n      }\n      stripeCustomerId\n      organizationSettings {\n        llmSettings {\n          enabled\n        }\n        telemetrySettings {\n          forceEnabled\n        }\n      }\n      isEligibleForDiscovery\n      hasBillingHistory\n    }\n    joinable_teams {\n      teamUid\n      numMembers\n      name\n      teamAcceptingInvites\n    }\n    # We're temporarily piggy-backing off of the polled teams metadata\n    # query to also query experiment state.\n    experiments\n  }\n}\n",
+  "operationName": "GetTeamsMetadataForUser"
+}
+[2024-10-14 14:41:43,298]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": {
+    "input": {
+      "folder": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.513272Z",
+          "objectId": "nM7AnONRgRemYIrA3Uhd0e",
+          "objectUid": "nM7AnONRgRemYIrA3Uhd0e",
+          "permissions_ts": "2023-07-01T19:04:21.513272Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.513272Z"
+          }
+        }
+      ],
+      "forceRefresh": false,
+      "genericStringObject": [],
+      "notebook": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2024-04-12T23:11:52.532739Z",
+          "objectId": "DwR2oDIMkzrcNzi3OYMPgp",
+          "objectUid": "DwR2oDIMkzrcNzi3OYMPgp",
+          "permissions_ts": "2024-03-31T18:44:12.816898Z",
+          "revision": {
+            "revisionTs": "2024-03-31T18:44:12.816898Z"
+          }
+        }
+      ],
+      "workflow": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.619545Z",
+          "objectId": "9ih4kQIg6IvwFpw7pDlp26",
+          "objectUid": "9ih4kQIg6IvwFpw7pDlp26",
+          "permissions_ts": "2023-07-01T19:04:21.619545Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.619545Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.584113Z",
+          "objectId": "DAm7i0tZzhopqgoqtpqJBN",
+          "objectUid": "DAm7i0tZzhopqgoqtpqJBN",
+          "permissions_ts": "2023-07-01T19:04:21.584113Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.584113Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.551661Z",
+          "objectId": "feUq3g2GeDTeW3JeYm1wzY",
+          "objectUid": "feUq3g2GeDTeW3JeYm1wzY",
+          "permissions_ts": "2023-07-01T19:04:21.551661Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.551661Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.650839Z",
+          "objectId": "VfG7RQIB3J1MCXKP6cOiTe",
+          "objectUid": "VfG7RQIB3J1MCXKP6cOiTe",
+          "permissions_ts": "2023-07-01T19:04:21.650839Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.650839Z"
+          }
+        }
+      ]
+    }
+  },
+  "query": "fragment MetadataFields on ObjectMetadata {\n  UID\n  currentEditor {\n    email\n  }\n  metadataLastUpdatedTs\n  lastEditedBy {\n    firebase_uid\n  }\n  revision {\n    revisionTs\n  }\n  trashedTs\n  folderUid\n  isWelcomeObject\n  creator {\n    firebase_uid\n  }\n}\n\nfragment PermissionsFields on ObjectPermissions {\n  space {\n    id\n    type\n  }\n  permissionsLastUpdatedTs\n}\n\nquery GetUpdatedCloudObjects($input: GetUpdatedCloudObjectsInput!) {\n  getUpdatedCloudObjects(input: $input) {\n    notebooks {\n      titleName\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    workflows {\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    folders {\n      name\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    genericStringObjects {\n      serializedModel\n      format\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    deletedObjectIds {\n      notebooks\n      notebookUIDs\n      workflows\n      workflowUIDs\n      folderUIDs\n      genericStringObjectUIDs\n    }\n    userProfiles {\n      email\n      display_name\n      photo_url\n      firebase_uid\n    }\n    actionHistories {\n      uid\n      objectType\n      actions {\n        __typename\n        ... on SingleAction {\n          actionType\n          timestamp\n          processedAtTimestamp\n        }\n        ... on BundledActions {\n          actionType\n          count\n          oldestTimestamp\n          latestTimestamp\n          latestProcessedAtTimestamp\n        }\n      }\n      latestProcessedAtTimestamp\n    }\n  }\n}\n",
+  "operationName": "GetUpdatedCloudObjects"
+}
+[2024-10-14 14:41:46,423]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": null,
+  "query": "query GetTeamsMetadataForUser {\n  user {\n    teams {\n      id\n      uid\n      name\n      creatorId\n      inviteCode {\n        id\n        code\n      }\n      members {\n        id\n        email\n      }\n      pendingEmailInvites {\n        code\n        inviteeEmail\n        createdAt\n        expired\n      }\n      inviteLinkDomainRestrictions {\n        uid\n        domain\n      }\n      isInviteLinkEnabled\n      isDiscoverable\n      billingMetadata {\n        customerType\n        delinquencyStatus\n        tier {\n          name\n          description\n          warpAiPolicy {\n            limit\n          }\n          teamSizePolicy {\n            isUnlimited\n            limit\n          }\n          sharedNotebooksPolicy {\n            isUnlimited\n            limit\n          }\n          sharedWorkflowsPolicy {\n            isUnlimited\n            limit\n          }\n          sessionSharingPolicy {\n            enabled\n          }\n        }\n      }\n      stripeCustomerId\n      organizationSettings {\n        llmSettings {\n          enabled\n        }\n        telemetrySettings {\n          forceEnabled\n        }\n      }\n      isEligibleForDiscovery\n      hasBillingHistory\n    }\n    joinable_teams {\n      teamUid\n      numMembers\n      name\n      teamAcceptingInvites\n    }\n    # We're temporarily piggy-backing off of the polled teams metadata\n    # query to also query experiment state.\n    experiments\n  }\n}\n",
+  "operationName": "GetTeamsMetadataForUser"
+}
+[2024-10-14 14:41:46,424]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": {
+    "input": {
+      "folder": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.513272Z",
+          "objectId": "nM7AnONRgRemYIrA3Uhd0e",
+          "objectUid": "nM7AnONRgRemYIrA3Uhd0e",
+          "permissions_ts": "2023-07-01T19:04:21.513272Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.513272Z"
+          }
+        }
+      ],
+      "forceRefresh": false,
+      "genericStringObject": [],
+      "notebook": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2024-04-12T23:11:52.532739Z",
+          "objectId": "DwR2oDIMkzrcNzi3OYMPgp",
+          "objectUid": "DwR2oDIMkzrcNzi3OYMPgp",
+          "permissions_ts": "2024-03-31T18:44:12.816898Z",
+          "revision": {
+            "revisionTs": "2024-03-31T18:44:12.816898Z"
+          }
+        }
+      ],
+      "workflow": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.619545Z",
+          "objectId": "9ih4kQIg6IvwFpw7pDlp26",
+          "objectUid": "9ih4kQIg6IvwFpw7pDlp26",
+          "permissions_ts": "2023-07-01T19:04:21.619545Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.619545Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.584113Z",
+          "objectId": "DAm7i0tZzhopqgoqtpqJBN",
+          "objectUid": "DAm7i0tZzhopqgoqtpqJBN",
+          "permissions_ts": "2023-07-01T19:04:21.584113Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.584113Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.551661Z",
+          "objectId": "feUq3g2GeDTeW3JeYm1wzY",
+          "objectUid": "feUq3g2GeDTeW3JeYm1wzY",
+          "permissions_ts": "2023-07-01T19:04:21.551661Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.551661Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.650839Z",
+          "objectId": "VfG7RQIB3J1MCXKP6cOiTe",
+          "objectUid": "VfG7RQIB3J1MCXKP6cOiTe",
+          "permissions_ts": "2023-07-01T19:04:21.650839Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.650839Z"
+          }
+        }
+      ]
+    }
+  },
+  "query": "fragment MetadataFields on ObjectMetadata {\n  UID\n  currentEditor {\n    email\n  }\n  metadataLastUpdatedTs\n  lastEditedBy {\n    firebase_uid\n  }\n  revision {\n    revisionTs\n  }\n  trashedTs\n  folderUid\n  isWelcomeObject\n  creator {\n    firebase_uid\n  }\n}\n\nfragment PermissionsFields on ObjectPermissions {\n  space {\n    id\n    type\n  }\n  permissionsLastUpdatedTs\n}\n\nquery GetUpdatedCloudObjects($input: GetUpdatedCloudObjectsInput!) {\n  getUpdatedCloudObjects(input: $input) {\n    notebooks {\n      titleName\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    workflows {\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    folders {\n      name\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    genericStringObjects {\n      serializedModel\n      format\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    deletedObjectIds {\n      notebooks\n      notebookUIDs\n      workflows\n      workflowUIDs\n      folderUIDs\n      genericStringObjectUIDs\n    }\n    userProfiles {\n      email\n      display_name\n      photo_url\n      firebase_uid\n    }\n    actionHistories {\n      uid\n      objectType\n      actions {\n        __typename\n        ... on SingleAction {\n          actionType\n          timestamp\n          processedAtTimestamp\n        }\n        ... on BundledActions {\n          actionType\n          count\n          oldestTimestamp\n          latestTimestamp\n          latestProcessedAtTimestamp\n        }\n      }\n      latestProcessedAtTimestamp\n    }\n  }\n}\n",
+  "operationName": "GetUpdatedCloudObjects"
+}
+[2024-10-14 14:41:46,600]: Response { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, status: 200, headers: {"content-type": "application/json", "set-cookie": "rl_anonymous_id=1dd99151-d1b3-4b21-80b9-e623967c743a; Path=/; Domain=warp.dev; Max-Age=31536000", "x-frame-options": "DENY", "content-length": "279", "date": "Mon, 14 Oct 2024 19:41:49 GMT", "server": "Google Frontend", "x-cloud-trace-context": "911716adf3000f7e72a3020518f55168/14284761506202689781", "traceparent": "00-911716adf3000f7e72a3020518f55168-c63daae7ee62a0f5-00", "via": "1.1 google", "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"} }
+[2024-10-14 14:41:46,608]: Response { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, status: 200, headers: {"content-type": "application/json", "set-cookie": "rl_anonymous_id=4f8552b8-a57d-4dbf-9052-d76edfd640af; Path=/; Domain=warp.dev; Max-Age=31536000", "x-frame-options": "DENY", "content-length": "94", "date": "Mon, 14 Oct 2024 19:41:49 GMT", "server": "Google Frontend", "traceparent": "00-ea1bc3e06e60371274e6631caf9d3e34-3fac402370d15bad-00", "x-cloud-trace-context": "ea1bc3e06e60371274e6631caf9d3e34/4588112641344494509", "via": "1.1 google", "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"} }
+[2024-10-14 14:41:47,497]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": {
+    "input": {
+      "folder": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.513272Z",
+          "objectId": "nM7AnONRgRemYIrA3Uhd0e",
+          "objectUid": "nM7AnONRgRemYIrA3Uhd0e",
+          "permissions_ts": "2023-07-01T19:04:21.513272Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.513272Z"
+          }
+        }
+      ],
+      "forceRefresh": false,
+      "genericStringObject": [],
+      "notebook": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2024-04-12T23:11:52.532739Z",
+          "objectId": "DwR2oDIMkzrcNzi3OYMPgp",
+          "objectUid": "DwR2oDIMkzrcNzi3OYMPgp",
+          "permissions_ts": "2024-03-31T18:44:12.816898Z",
+          "revision": {
+            "revisionTs": "2024-03-31T18:44:12.816898Z"
+          }
+        }
+      ],
+      "workflow": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.619545Z",
+          "objectId": "9ih4kQIg6IvwFpw7pDlp26",
+          "objectUid": "9ih4kQIg6IvwFpw7pDlp26",
+          "permissions_ts": "2023-07-01T19:04:21.619545Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.619545Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.584113Z",
+          "objectId": "DAm7i0tZzhopqgoqtpqJBN",
+          "objectUid": "DAm7i0tZzhopqgoqtpqJBN",
+          "permissions_ts": "2023-07-01T19:04:21.584113Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.584113Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.551661Z",
+          "objectId": "feUq3g2GeDTeW3JeYm1wzY",
+          "objectUid": "feUq3g2GeDTeW3JeYm1wzY",
+          "permissions_ts": "2023-07-01T19:04:21.551661Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.551661Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.650839Z",
+          "objectId": "VfG7RQIB3J1MCXKP6cOiTe",
+          "objectUid": "VfG7RQIB3J1MCXKP6cOiTe",
+          "permissions_ts": "2023-07-01T19:04:21.650839Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.650839Z"
+          }
+        }
+      ]
+    }
+  },
+  "query": "fragment MetadataFields on ObjectMetadata {\n  UID\n  currentEditor {\n    email\n  }\n  metadataLastUpdatedTs\n  lastEditedBy {\n    firebase_uid\n  }\n  revision {\n    revisionTs\n  }\n  trashedTs\n  folderUid\n  isWelcomeObject\n  creator {\n    firebase_uid\n  }\n}\n\nfragment PermissionsFields on ObjectPermissions {\n  space {\n    id\n    type\n  }\n  permissionsLastUpdatedTs\n}\n\nquery GetUpdatedCloudObjects($input: GetUpdatedCloudObjectsInput!) {\n  getUpdatedCloudObjects(input: $input) {\n    notebooks {\n      titleName\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    workflows {\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    folders {\n      name\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    genericStringObjects {\n      serializedModel\n      format\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    deletedObjectIds {\n      notebooks\n      notebookUIDs\n      workflows\n      workflowUIDs\n      folderUIDs\n      genericStringObjectUIDs\n    }\n    userProfiles {\n      email\n      display_name\n      photo_url\n      firebase_uid\n    }\n    actionHistories {\n      uid\n      objectType\n      actions {\n        __typename\n        ... on SingleAction {\n          actionType\n          timestamp\n          processedAtTimestamp\n        }\n        ... on BundledActions {\n          actionType\n          count\n          oldestTimestamp\n          latestTimestamp\n          latestProcessedAtTimestamp\n        }\n      }\n      latestProcessedAtTimestamp\n    }\n  }\n}\n",
+  "operationName": "GetUpdatedCloudObjects"
+}
+[2024-10-14 14:41:47,582]: Response { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, status: 200, headers: {"content-type": "application/json", "set-cookie": "rl_anonymous_id=5304f08f-21f7-40b5-9f40-ffabb74f2ff3; Path=/; Domain=warp.dev; Max-Age=31536000", "x-frame-options": "DENY", "content-length": "279", "date": "Mon, 14 Oct 2024 19:41:50 GMT", "server": "Google Frontend", "x-cloud-trace-context": "395c14401b3cabf48a4f51d3523192bc/14506355551863000754", "traceparent": "00-395c14401b3cabf48a4f51d3523192bc-c950ed84364f4eb2-00", "via": "1.1 google", "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"} }
+[2024-10-14 14:41:47,928]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": null,
+  "query": "query GetTeamsMetadataForUser {\n  user {\n    teams {\n      id\n      uid\n      name\n      creatorId\n      inviteCode {\n        id\n        code\n      }\n      members {\n        id\n        email\n      }\n      pendingEmailInvites {\n        code\n        inviteeEmail\n        createdAt\n        expired\n      }\n      inviteLinkDomainRestrictions {\n        uid\n        domain\n      }\n      isInviteLinkEnabled\n      isDiscoverable\n      billingMetadata {\n        customerType\n        delinquencyStatus\n        tier {\n          name\n          description\n          warpAiPolicy {\n            limit\n          }\n          teamSizePolicy {\n            isUnlimited\n            limit\n          }\n          sharedNotebooksPolicy {\n            isUnlimited\n            limit\n          }\n          sharedWorkflowsPolicy {\n            isUnlimited\n            limit\n          }\n          sessionSharingPolicy {\n            enabled\n          }\n        }\n      }\n      stripeCustomerId\n      organizationSettings {\n        llmSettings {\n          enabled\n        }\n        telemetrySettings {\n          forceEnabled\n        }\n      }\n      isEligibleForDiscovery\n      hasBillingHistory\n    }\n    joinable_teams {\n      teamUid\n      numMembers\n      name\n      teamAcceptingInvites\n    }\n    # We're temporarily piggy-backing off of the polled teams metadata\n    # query to also query experiment state.\n    experiments\n  }\n}\n",
+  "operationName": "GetTeamsMetadataForUser"
+}
+[2024-10-14 14:41:48,012]: Response { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, status: 200, headers: {"content-type": "application/json", "set-cookie": "rl_anonymous_id=be5b6bd8-7d64-457b-ab63-60a655e8d97a; Path=/; Domain=warp.dev; Max-Age=31536000", "x-frame-options": "DENY", "content-length": "94", "date": "Mon, 14 Oct 2024 19:41:50 GMT", "server": "Google Frontend", "x-cloud-trace-context": "022f221f43adad5e280e91bc29498b6c/6337832462651556660", "traceparent": "00-022f221f43adad5e280e91bc29498b6c-57f4810ba6490334-00", "via": "1.1 google", "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"} }
+[2024-10-14 14:41:48,984]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": null,
+  "query": "query GetTeamsMetadataForUser {\n  user {\n    teams {\n      id\n      uid\n      name\n      creatorId\n      inviteCode {\n        id\n        code\n      }\n      members {\n        id\n        email\n      }\n      pendingEmailInvites {\n        code\n        inviteeEmail\n        createdAt\n        expired\n      }\n      inviteLinkDomainRestrictions {\n        uid\n        domain\n      }\n      isInviteLinkEnabled\n      isDiscoverable\n      billingMetadata {\n        customerType\n        delinquencyStatus\n        tier {\n          name\n          description\n          warpAiPolicy {\n            limit\n          }\n          teamSizePolicy {\n            isUnlimited\n            limit\n          }\n          sharedNotebooksPolicy {\n            isUnlimited\n            limit\n          }\n          sharedWorkflowsPolicy {\n            isUnlimited\n            limit\n          }\n          sessionSharingPolicy {\n            enabled\n          }\n        }\n      }\n      stripeCustomerId\n      organizationSettings {\n        llmSettings {\n          enabled\n        }\n        telemetrySettings {\n          forceEnabled\n        }\n      }\n      isEligibleForDiscovery\n      hasBillingHistory\n    }\n    joinable_teams {\n      teamUid\n      numMembers\n      name\n      teamAcceptingInvites\n    }\n    # We're temporarily piggy-backing off of the polled teams metadata\n    # query to also query experiment state.\n    experiments\n  }\n}\n",
+  "operationName": "GetTeamsMetadataForUser"
+}
+[2024-10-14 14:41:48,988]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": {
+    "input": {
+      "folder": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.513272Z",
+          "objectId": "nM7AnONRgRemYIrA3Uhd0e",
+          "objectUid": "nM7AnONRgRemYIrA3Uhd0e",
+          "permissions_ts": "2023-07-01T19:04:21.513272Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.513272Z"
+          }
+        }
+      ],
+      "forceRefresh": false,
+      "genericStringObject": [],
+      "notebook": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2024-04-12T23:11:52.532739Z",
+          "objectId": "DwR2oDIMkzrcNzi3OYMPgp",
+          "objectUid": "DwR2oDIMkzrcNzi3OYMPgp",
+          "permissions_ts": "2024-03-31T18:44:12.816898Z",
+          "revision": {
+            "revisionTs": "2024-03-31T18:44:12.816898Z"
+          }
+        }
+      ],
+      "workflow": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.619545Z",
+          "objectId": "9ih4kQIg6IvwFpw7pDlp26",
+          "objectUid": "9ih4kQIg6IvwFpw7pDlp26",
+          "permissions_ts": "2023-07-01T19:04:21.619545Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.619545Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.584113Z",
+          "objectId": "DAm7i0tZzhopqgoqtpqJBN",
+          "objectUid": "DAm7i0tZzhopqgoqtpqJBN",
+          "permissions_ts": "2023-07-01T19:04:21.584113Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.584113Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.551661Z",
+          "objectId": "feUq3g2GeDTeW3JeYm1wzY",
+          "objectUid": "feUq3g2GeDTeW3JeYm1wzY",
+          "permissions_ts": "2023-07-01T19:04:21.551661Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.551661Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.650839Z",
+          "objectId": "VfG7RQIB3J1MCXKP6cOiTe",
+          "objectUid": "VfG7RQIB3J1MCXKP6cOiTe",
+          "permissions_ts": "2023-07-01T19:04:21.650839Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.650839Z"
+          }
+        }
+      ]
+    }
+  },
+  "query": "fragment MetadataFields on ObjectMetadata {\n  UID\n  currentEditor {\n    email\n  }\n  metadataLastUpdatedTs\n  lastEditedBy {\n    firebase_uid\n  }\n  revision {\n    revisionTs\n  }\n  trashedTs\n  folderUid\n  isWelcomeObject\n  creator {\n    firebase_uid\n  }\n}\n\nfragment PermissionsFields on ObjectPermissions {\n  space {\n    id\n    type\n  }\n  permissionsLastUpdatedTs\n}\n\nquery GetUpdatedCloudObjects($input: GetUpdatedCloudObjectsInput!) {\n  getUpdatedCloudObjects(input: $input) {\n    notebooks {\n      titleName\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    workflows {\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    folders {\n      name\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    genericStringObjects {\n      serializedModel\n      format\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    deletedObjectIds {\n      notebooks\n      notebookUIDs\n      workflows\n      workflowUIDs\n      folderUIDs\n      genericStringObjectUIDs\n    }\n    userProfiles {\n      email\n      display_name\n      photo_url\n      firebase_uid\n    }\n    actionHistories {\n      uid\n      objectType\n      actions {\n        __typename\n        ... on SingleAction {\n          actionType\n          timestamp\n          processedAtTimestamp\n        }\n        ... on BundledActions {\n          actionType\n          count\n          oldestTimestamp\n          latestTimestamp\n          latestProcessedAtTimestamp\n        }\n      }\n      latestProcessedAtTimestamp\n    }\n  }\n}\n",
+  "operationName": "GetUpdatedCloudObjects"
+}
+[2024-10-17 04:27:45,990]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("securetoken.googleapis.com")), port: None, path: "/v1/token", query: Some("key=AIzaSyBdy3O3S9hrdayLJxJ7mriBR4qgUaUygAs"), fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/x-www-form-urlencoded"} }
+Body grant_type=refresh_token&refresh_token=AMf-vBxfucgJFxAH6jSehN9o6ukHD_aDxZUnq3T8eiXs-xLN9f8P0oeEh2TfUsuf-8GBubF-xX8INUPVJlaaZas3KTCoEpf3BJz_nc1hrX2KwtZqEVsqWd3QRIWOSc0bbK7NOCZIZNl0GDtdenPYeohKOGJ6K0OZDPhFw4SQjvyWHcpaBoJySXkyX9ArvCjJu0lzVQ_O7Ecr13ItiWJpWI7UGrYFZ-D1xFTzBTI1tam2Hv44RmvjZDSNbBPsj0OWQsUzf0bc5wFuuQZqE06S18O6g43ZmcjSPwOLS0h1F1h34sNWA47uRJYRcjbLyfcUq_kmHXQ724u610iEp_WsUWGfJ2najfeym99VxWNDSF9_rhdaJntWs18
+[2024-10-17 04:27:45,990]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("securetoken.googleapis.com")), port: None, path: "/v1/token", query: Some("key=AIzaSyBdy3O3S9hrdayLJxJ7mriBR4qgUaUygAs"), fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/x-www-form-urlencoded"} }
+Body grant_type=refresh_token&refresh_token=AMf-vBxfucgJFxAH6jSehN9o6ukHD_aDxZUnq3T8eiXs-xLN9f8P0oeEh2TfUsuf-8GBubF-xX8INUPVJlaaZas3KTCoEpf3BJz_nc1hrX2KwtZqEVsqWd3QRIWOSc0bbK7NOCZIZNl0GDtdenPYeohKOGJ6K0OZDPhFw4SQjvyWHcpaBoJySXkyX9ArvCjJu0lzVQ_O7Ecr13ItiWJpWI7UGrYFZ-D1xFTzBTI1tam2Hv44RmvjZDSNbBPsj0OWQsUzf0bc5wFuuQZqE06S18O6g43ZmcjSPwOLS0h1F1h34sNWA47uRJYRcjbLyfcUq_kmHXQ724u610iEp_WsUWGfJ2najfeym99VxWNDSF9_rhdaJntWs18
+[2024-10-17 04:27:46,153]: Response { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("securetoken.googleapis.com")), port: None, path: "/v1/token", query: Some("key=AIzaSyBdy3O3S9hrdayLJxJ7mriBR4qgUaUygAs"), fragment: None }, status: 200, headers: {"cache-control": "no-cache, no-store, max-age=0, must-revalidate", "expires": "Mon, 01 Jan 1990 00:00:00 GMT", "date": "Thu, 17 Oct 2024 09:27:48 GMT", "pragma": "no-cache", "content-type": "application/json; charset=UTF-8", "vary": "Origin", "vary": "X-Origin", "vary": "Referer", "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000", "server": "ESF", "x-content-type-options": "nosniff", "x-xss-protection": "0", "x-frame-options": "SAMEORIGIN"} }
+[2024-10-17 04:27:46,156]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": {
+    "input": {
+      "folder": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.513272Z",
+          "objectId": "nM7AnONRgRemYIrA3Uhd0e",
+          "objectUid": "nM7AnONRgRemYIrA3Uhd0e",
+          "permissions_ts": "2023-07-01T19:04:21.513272Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.513272Z"
+          }
+        }
+      ],
+      "forceRefresh": true,
+      "genericStringObject": [],
+      "notebook": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2024-04-12T23:11:52.532739Z",
+          "objectId": "DwR2oDIMkzrcNzi3OYMPgp",
+          "objectUid": "DwR2oDIMkzrcNzi3OYMPgp",
+          "permissions_ts": "2024-03-31T18:44:12.816898Z",
+          "revision": {
+            "revisionTs": "2024-03-31T18:44:12.816898Z"
+          }
+        }
+      ],
+      "workflow": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.619545Z",
+          "objectId": "9ih4kQIg6IvwFpw7pDlp26",
+          "objectUid": "9ih4kQIg6IvwFpw7pDlp26",
+          "permissions_ts": "2023-07-01T19:04:21.619545Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.619545Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.584113Z",
+          "objectId": "DAm7i0tZzhopqgoqtpqJBN",
+          "objectUid": "DAm7i0tZzhopqgoqtpqJBN",
+          "permissions_ts": "2023-07-01T19:04:21.584113Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.584113Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.551661Z",
+          "objectId": "feUq3g2GeDTeW3JeYm1wzY",
+          "objectUid": "feUq3g2GeDTeW3JeYm1wzY",
+          "permissions_ts": "2023-07-01T19:04:21.551661Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.551661Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.650839Z",
+          "objectId": "VfG7RQIB3J1MCXKP6cOiTe",
+          "objectUid": "VfG7RQIB3J1MCXKP6cOiTe",
+          "permissions_ts": "2023-07-01T19:04:21.650839Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.650839Z"
+          }
+        }
+      ]
+    }
+  },
+  "query": "fragment MetadataFields on ObjectMetadata {\n  UID\n  currentEditor {\n    email\n  }\n  metadataLastUpdatedTs\n  lastEditedBy {\n    firebase_uid\n  }\n  revision {\n    revisionTs\n  }\n  trashedTs\n  folderUid\n  isWelcomeObject\n  creator {\n    firebase_uid\n  }\n}\n\nfragment PermissionsFields on ObjectPermissions {\n  space {\n    id\n    type\n  }\n  permissionsLastUpdatedTs\n}\n\nquery GetUpdatedCloudObjects($input: GetUpdatedCloudObjectsInput!) {\n  getUpdatedCloudObjects(input: $input) {\n    notebooks {\n      titleName\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    workflows {\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    folders {\n      name\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    genericStringObjects {\n      serializedModel\n      format\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    deletedObjectIds {\n      notebooks\n      notebookUIDs\n      workflows\n      workflowUIDs\n      folderUIDs\n      genericStringObjectUIDs\n    }\n    userProfiles {\n      email\n      display_name\n      photo_url\n      firebase_uid\n    }\n    actionHistories {\n      uid\n      objectType\n      actions {\n        __typename\n        ... on SingleAction {\n          actionType\n          timestamp\n          processedAtTimestamp\n        }\n        ... on BundledActions {\n          actionType\n          count\n          oldestTimestamp\n          latestTimestamp\n          latestProcessedAtTimestamp\n        }\n      }\n      latestProcessedAtTimestamp\n    }\n  }\n}\n",
+  "operationName": "GetUpdatedCloudObjects"
+}
+[2024-10-17 04:27:46,172]: Response { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("securetoken.googleapis.com")), port: None, path: "/v1/token", query: Some("key=AIzaSyBdy3O3S9hrdayLJxJ7mriBR4qgUaUygAs"), fragment: None }, status: 200, headers: {"expires": "Mon, 01 Jan 1990 00:00:00 GMT", "pragma": "no-cache", "cache-control": "no-cache, no-store, max-age=0, must-revalidate", "date": "Thu, 17 Oct 2024 09:27:48 GMT", "content-type": "application/json; charset=UTF-8", "vary": "Origin", "vary": "X-Origin", "vary": "Referer", "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000", "server": "ESF", "x-content-type-options": "nosniff", "x-xss-protection": "0", "x-frame-options": "SAMEORIGIN"} }
+[2024-10-17 04:27:46,173]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": null,
+  "query": "query GetTeamsMetadataForUser {\n  user {\n    teams {\n      id\n      uid\n      name\n      creatorId\n      inviteCode {\n        id\n        code\n      }\n      members {\n        id\n        email\n      }\n      pendingEmailInvites {\n        code\n        inviteeEmail\n        createdAt\n        expired\n      }\n      inviteLinkDomainRestrictions {\n        uid\n        domain\n      }\n      isInviteLinkEnabled\n      isDiscoverable\n      billingMetadata {\n        customerType\n        delinquencyStatus\n        tier {\n          name\n          description\n          warpAiPolicy {\n            limit\n          }\n          teamSizePolicy {\n            isUnlimited\n            limit\n          }\n          sharedNotebooksPolicy {\n            isUnlimited\n            limit\n          }\n          sharedWorkflowsPolicy {\n            isUnlimited\n            limit\n          }\n          sessionSharingPolicy {\n            enabled\n          }\n        }\n      }\n      stripeCustomerId\n      organizationSettings {\n        llmSettings {\n          enabled\n        }\n        telemetrySettings {\n          forceEnabled\n        }\n      }\n      isEligibleForDiscovery\n      hasBillingHistory\n    }\n    joinable_teams {\n      teamUid\n      numMembers\n      name\n      teamAcceptingInvites\n    }\n    # We're temporarily piggy-backing off of the polled teams metadata\n    # query to also query experiment state.\n    experiments\n  }\n}\n",
+  "operationName": "GetTeamsMetadataForUser"
+}
+[2024-10-17 04:27:48,204]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": {
+    "input": {
+      "folder": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.513272Z",
+          "objectId": "nM7AnONRgRemYIrA3Uhd0e",
+          "objectUid": "nM7AnONRgRemYIrA3Uhd0e",
+          "permissions_ts": "2023-07-01T19:04:21.513272Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.513272Z"
+          }
+        }
+      ],
+      "forceRefresh": true,
+      "genericStringObject": [],
+      "notebook": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2024-04-12T23:11:52.532739Z",
+          "objectId": "DwR2oDIMkzrcNzi3OYMPgp",
+          "objectUid": "DwR2oDIMkzrcNzi3OYMPgp",
+          "permissions_ts": "2024-03-31T18:44:12.816898Z",
+          "revision": {
+            "revisionTs": "2024-03-31T18:44:12.816898Z"
+          }
+        }
+      ],
+      "workflow": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.619545Z",
+          "objectId": "9ih4kQIg6IvwFpw7pDlp26",
+          "objectUid": "9ih4kQIg6IvwFpw7pDlp26",
+          "permissions_ts": "2023-07-01T19:04:21.619545Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.619545Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.584113Z",
+          "objectId": "DAm7i0tZzhopqgoqtpqJBN",
+          "objectUid": "DAm7i0tZzhopqgoqtpqJBN",
+          "permissions_ts": "2023-07-01T19:04:21.584113Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.584113Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.551661Z",
+          "objectId": "feUq3g2GeDTeW3JeYm1wzY",
+          "objectUid": "feUq3g2GeDTeW3JeYm1wzY",
+          "permissions_ts": "2023-07-01T19:04:21.551661Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.551661Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.650839Z",
+          "objectId": "VfG7RQIB3J1MCXKP6cOiTe",
+          "objectUid": "VfG7RQIB3J1MCXKP6cOiTe",
+          "permissions_ts": "2023-07-01T19:04:21.650839Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.650839Z"
+          }
+        }
+      ]
+    }
+  },
+  "query": "fragment MetadataFields on ObjectMetadata {\n  UID\n  currentEditor {\n    email\n  }\n  metadataLastUpdatedTs\n  lastEditedBy {\n    firebase_uid\n  }\n  revision {\n    revisionTs\n  }\n  trashedTs\n  folderUid\n  isWelcomeObject\n  creator {\n    firebase_uid\n  }\n}\n\nfragment PermissionsFields on ObjectPermissions {\n  space {\n    id\n    type\n  }\n  permissionsLastUpdatedTs\n}\n\nquery GetUpdatedCloudObjects($input: GetUpdatedCloudObjectsInput!) {\n  getUpdatedCloudObjects(input: $input) {\n    notebooks {\n      titleName\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    workflows {\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    folders {\n      name\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    genericStringObjects {\n      serializedModel\n      format\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    deletedObjectIds {\n      notebooks\n      notebookUIDs\n      workflows\n      workflowUIDs\n      folderUIDs\n      genericStringObjectUIDs\n    }\n    userProfiles {\n      email\n      display_name\n      photo_url\n      firebase_uid\n    }\n    actionHistories {\n      uid\n      objectType\n      actions {\n        __typename\n        ... on SingleAction {\n          actionType\n          timestamp\n          processedAtTimestamp\n        }\n        ... on BundledActions {\n          actionType\n          count\n          oldestTimestamp\n          latestTimestamp\n          latestProcessedAtTimestamp\n        }\n      }\n      latestProcessedAtTimestamp\n    }\n  }\n}\n",
+  "operationName": "GetUpdatedCloudObjects"
+}
+[2024-10-17 04:27:48,268]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": null,
+  "query": "query GetTeamsMetadataForUser {\n  user {\n    teams {\n      id\n      uid\n      name\n      creatorId\n      inviteCode {\n        id\n        code\n      }\n      members {\n        id\n        email\n      }\n      pendingEmailInvites {\n        code\n        inviteeEmail\n        createdAt\n        expired\n      }\n      inviteLinkDomainRestrictions {\n        uid\n        domain\n      }\n      isInviteLinkEnabled\n      isDiscoverable\n      billingMetadata {\n        customerType\n        delinquencyStatus\n        tier {\n          name\n          description\n          warpAiPolicy {\n            limit\n          }\n          teamSizePolicy {\n            isUnlimited\n            limit\n          }\n          sharedNotebooksPolicy {\n            isUnlimited\n            limit\n          }\n          sharedWorkflowsPolicy {\n            isUnlimited\n            limit\n          }\n          sessionSharingPolicy {\n            enabled\n          }\n        }\n      }\n      stripeCustomerId\n      organizationSettings {\n        llmSettings {\n          enabled\n        }\n        telemetrySettings {\n          forceEnabled\n        }\n      }\n      isEligibleForDiscovery\n      hasBillingHistory\n    }\n    joinable_teams {\n      teamUid\n      numMembers\n      name\n      teamAcceptingInvites\n    }\n    # We're temporarily piggy-backing off of the polled teams metadata\n    # query to also query experiment state.\n    experiments\n  }\n}\n",
+  "operationName": "GetTeamsMetadataForUser"
+}
+[2024-10-17 04:27:48,469]: Response { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, status: 200, headers: {"content-type": "application/json", "set-cookie": "rl_anonymous_id=6ab0bfa3-5b52-4417-a4e2-680c67996d00; Path=/; Domain=warp.dev; Max-Age=31536000", "x-frame-options": "DENY", "content-length": "94", "date": "Thu, 17 Oct 2024 09:27:50 GMT", "server": "Google Frontend", "traceparent": "00-01045289cfec3dd64b775275b60fb290-4d5fba41d7db5f6c-00", "x-cloud-trace-context": "01045289cfec3dd64b775275b60fb290/5575379655665082220", "via": "1.1 google", "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"} }
+[2024-10-17 04:27:48,550]: Response { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, status: 200, headers: {"content-type": "application/json", "set-cookie": "rl_anonymous_id=c4fef6d7-d6a4-47a8-a74d-91127bb5b6f5; Path=/; Domain=warp.dev; Max-Age=31536000", "x-frame-options": "DENY", "date": "Thu, 17 Oct 2024 09:27:50 GMT", "server": "Google Frontend", "x-cloud-trace-context": "8a822067e3124d89df4dfbb5990dd1b5/12151277426923785710", "traceparent": "00-8a822067e3124d89df4dfbb5990dd1b5-a8a202708703cdee-00", "via": "1.1 google", "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"} }
+[2024-10-17 04:33:50,803]: Request { method: GET, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/client_version", query: Some("include_changelogs=false"), fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "authorization": Sensitive} }
+[2024-10-17 04:34:01,538]: Request { method: GET, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("releases.warp.dev")), port: None, path: "/channel_versions.json", query: Some("r=7F6i2ji"), fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1"} }
+[2024-10-17 04:37:18,147]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": {
+    "input": {
+      "folder": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.513272Z",
+          "objectId": "nM7AnONRgRemYIrA3Uhd0e",
+          "objectUid": "nM7AnONRgRemYIrA3Uhd0e",
+          "permissions_ts": "2023-07-01T19:04:21.513272Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.513272Z"
+          }
+        }
+      ],
+      "forceRefresh": false,
+      "genericStringObject": [],
+      "notebook": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2024-04-12T23:11:52.532739Z",
+          "objectId": "DwR2oDIMkzrcNzi3OYMPgp",
+          "objectUid": "DwR2oDIMkzrcNzi3OYMPgp",
+          "permissions_ts": "2024-03-31T18:44:12.816898Z",
+          "revision": {
+            "revisionTs": "2024-03-31T18:44:12.816898Z"
+          }
+        }
+      ],
+      "workflow": [
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.619545Z",
+          "objectId": "9ih4kQIg6IvwFpw7pDlp26",
+          "objectUid": "9ih4kQIg6IvwFpw7pDlp26",
+          "permissions_ts": "2023-07-01T19:04:21.619545Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.619545Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.584113Z",
+          "objectId": "DAm7i0tZzhopqgoqtpqJBN",
+          "objectUid": "DAm7i0tZzhopqgoqtpqJBN",
+          "permissions_ts": "2023-07-01T19:04:21.584113Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.584113Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.551661Z",
+          "objectId": "feUq3g2GeDTeW3JeYm1wzY",
+          "objectUid": "feUq3g2GeDTeW3JeYm1wzY",
+          "permissions_ts": "2023-07-01T19:04:21.551661Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.551661Z"
+          }
+        },
+        {
+          "actions_ts": null,
+          "metadata_ts": "2023-07-01T19:04:21.650839Z",
+          "objectId": "VfG7RQIB3J1MCXKP6cOiTe",
+          "objectUid": "VfG7RQIB3J1MCXKP6cOiTe",
+          "permissions_ts": "2023-07-01T19:04:21.650839Z",
+          "revision": {
+            "revisionTs": "2023-07-01T19:04:21.650839Z"
+          }
+        }
+      ]
+    }
+  },
+  "query": "fragment MetadataFields on ObjectMetadata {\n  UID\n  currentEditor {\n    email\n  }\n  metadataLastUpdatedTs\n  lastEditedBy {\n    firebase_uid\n  }\n  revision {\n    revisionTs\n  }\n  trashedTs\n  folderUid\n  isWelcomeObject\n  creator {\n    firebase_uid\n  }\n}\n\nfragment PermissionsFields on ObjectPermissions {\n  space {\n    id\n    type\n  }\n  permissionsLastUpdatedTs\n}\n\nquery GetUpdatedCloudObjects($input: GetUpdatedCloudObjectsInput!) {\n  getUpdatedCloudObjects(input: $input) {\n    notebooks {\n      titleName\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    workflows {\n      data\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    folders {\n      name\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    genericStringObjects {\n      serializedModel\n      format\n      metadata {\n        ...MetadataFields\n      }\n      permissions {\n        ...PermissionsFields\n      }\n    }\n    deletedObjectIds {\n      notebooks\n      notebookUIDs\n      workflows\n      workflowUIDs\n      folderUIDs\n      genericStringObjectUIDs\n    }\n    userProfiles {\n      email\n      display_name\n      photo_url\n      firebase_uid\n    }\n    actionHistories {\n      uid\n      objectType\n      actions {\n        __typename\n        ... on SingleAction {\n          actionType\n          timestamp\n          processedAtTimestamp\n        }\n        ... on BundledActions {\n          actionType\n          count\n          oldestTimestamp\n          latestTimestamp\n          latestProcessedAtTimestamp\n        }\n      }\n      latestProcessedAtTimestamp\n    }\n  }\n}\n",
+  "operationName": "GetUpdatedCloudObjects"
+}
+[2024-10-17 04:37:18,490]: Response { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, status: 200, headers: {"content-type": "application/json", "set-cookie": "rl_anonymous_id=6a6e4adc-ebe4-491f-85d4-51d7ab2121ec; Path=/; Domain=warp.dev; Max-Age=31536000", "x-frame-options": "DENY", "content-length": "279", "date": "Thu, 17 Oct 2024 09:37:20 GMT", "server": "Google Frontend", "traceparent": "00-7ccc7dbf79ae8631adaaa8f789da02ab-6a6e2298b624d18c-00", "x-cloud-trace-context": "7ccc7dbf79ae8631adaaa8f789da02ab/7669105254744773004", "via": "1.1 google", "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"} }
+[2024-10-17 04:38:37,220]: Request { method: POST, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("app.warp.dev")), port: None, path: "/graphql", query: None, fragment: None }, headers: {"x-warp-client-version": "v0.2024.10.08.08.02.stable_02", "x-warp-os-category": "Linux", "x-warp-os-name": "EndeavourOS", "x-warp-os-version": "rolling", "x-warp-os-linux-kernel-version": "6.11.3-arch1-1", "content-type": "application/json", "authorization": Sensitive} }
+Body {
+  "variables": null,
+  "query": "query GetTeamsMetadataForUser {\n  user {\n    teams {\n      id\n      uid\n      name\n      creatorId\n      inviteCode {\n        id\n        code\n      }\n      members {\n        id\n        email\n      }\n      pendingEmailInvites {\n        code\n        inviteeEmail\n        createdAt\n        expired\n      }\n      inviteLinkDomainRestrictions {\n        uid\n        domain\n      }\n      isInviteLinkEnabled\n      isDiscoverable\n      billingMetadata {\n        customerType\n        delinquencyStatus\n        tier {\n          name\n          description\n          warpAiPolicy {\n            limit\n          }\n          teamSizePolicy {\n            isUnlimited\n            limit\n          }\n          sharedNotebooksPolicy {\n            isUnlimited\n            limit\n          }\n          sharedWorkflowsPolicy {\n            isUnlimited\n            limit\n          }\n          sessionSharingPolicy {\n            enabled\n          }\n        }\n      }\n      stripeCustomerId\n      organizationSettings {\n        llmSettings {\n          enabled\n        }\n        telemetrySettings {\n          forceEnabled\n        }\n      }\n      isEligibleForDiscovery\n      hasBillingHistory\n    }\n    joinable_teams {\n      teamUid\n      numMembers\n      name\n      teamAcceptingInvites\n    }\n    # We're temporarily piggy-backing off of the polled teams metadata\n    # query to also query experiment state.\n    experiments\n  }\n}\n",
+  "operationName": "GetTeamsMetadataForUser"
+}

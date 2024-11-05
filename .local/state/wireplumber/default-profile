@@ -1,0 +1,8 @@
+[default-profile]
+alsa_card.pci-0000_00_1f.3=input:analog-stereo
+alsa_card.pci-0000_00_1f.3.5=output:hdmi-stereo
+alsa_card.usb-Burr-Brown_from_TI_USB_Audio_DAC-00=output:iec958-stereo
+alsa_card.usb-Generic_USB_Audio_200901010001-00=pro-audio
+alsa_card.usb-Microsoft_Microsoft___LifeCam_VX-2000-02=pro-audio
+bluez_card.80_99_E7_36_3F_8B=a2dp-sink
+bluez_card.C4_5D_83_41_9D_F1=a2dp-sink-sbc

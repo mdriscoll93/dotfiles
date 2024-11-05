@@ -1,0 +1,13 @@
+[General]
+SystemInstallDate=2024-10-11
+
+[KickerRunnerManager]
+LaunchCounts=1 exec:///usr/bin/systemsettings,1 exec:///usr/bin/eos-update-notifier-configure,1 exec:///usr/bin/vivaldi-stable,1 exec:///usr/lib/firefox/firefox,1 exec:///usr/bin/spotify --uri=,1 krunner_systemsettings_kcm_keys,1 exec:///usr/bin/plasma-welcome,1 krunner_systemsettings_kcm_mouse,2 exec:///usr/bin/solaar,1 exec:///usr/bin/bash -c echo '==> eos-update --yay'; eos-update --yay; eos-sleep-counter 60,1 exec:///usr/bin/code,1 krunner_systemsettings_kcm_workspace,2 exec:///usr/bin/spectacle
+
+[KickerRunnerManager][History]
+02207dd9-d307-479a-ac9d-9be7f07b74b9=virtua,defaul,bit,key,sol,onl,mouse,ran,netw,dis,disp,wire,scree,screens,lock screen,calc,d,code,parti,sola,tor,onlin,kde,ok,k,ke,eos,e,vsc,plasma,spo,v,proton,winbox,latt,ende,network,sett,short,scroll,sp,w,war,winbo,spotify,screensh,screenshot,fire,spec,SCREENS
+35b799fd-a0e0-4841-9461-f05534125703=sol,d,part,sett,etc,balena,defa,disk,s,spot,pych,text,g,screenshot
+
+[Open-with settings]
+CompletionMode=1
+History=code

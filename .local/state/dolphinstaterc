@@ -1,0 +1,52 @@
+[Open-with settings]
+CompletionMode=1
+History=code,kitt,qo,kate,java -jar,oku,zat
+LastChoice=code
+
+[SettingsDialog]
+1920x1080 screen: Height=456
+1920x1080 screen: Width=589
+2 screens: Height=456
+2 screens: Width=589
+3 screens: Height=507
+3 screens: Width=1014
+
+[State]
+1920x1080 screen: Height=1008
+1920x1080 screen: Width=1917
+1920x1080 screen: XPosition=217
+1920x1080 screen: YPosition=89
+1920x1200 screen: Height=967
+1920x1200 screen: Width=1917
+1920x1200 screen: XPosition=0
+1920x1200 screen: YPosition=78
+2 screens: Height=1028
+2 screens: Width=1917
+2 screens: XPosition=-42
+2 screens: YPosition=394
+2560x1440 screen: Height=396
+2560x1440 screen: Width=1280
+2560x1440 screen: XPosition=3233
+2560x1440 screen: YPosition=1228
+3 screens: Height=1028
+3 screens: Width=1917
+3 screens: XPosition=143
+3 screens: YPosition=1573
+640x480 screen: Height=409
+640x480 screen: Width=2134
+DP-1-1 DP-1-3=DP-1-3
+DP-1-1 DP-1-3 HDMI-2=DP-1-3
+DP-1-1 DP-1-3 eDP-1=DP-1-1
+DP-1-1 HDMI-2=DP-1-1
+DP-1-1 HDMI-2 eDP-1=eDP-1
+DP-1-2 DP-1-3=DP-1-3
+DP-1-2 DP-1-3 HDMI-2=DP-1-3
+DP-1-2 DP-1-3 eDP-1=DP-1-3
+DP-1-2 HDMI-2=DP-1-2
+DP-1-3 HDMI-2=DP-1-3
+DP-1-3 HDMI-2 eDP-1=eDP-1
+HDMI-2=HDMI-2
+HDMI-2 eDP-1=eDP-1
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAERAAAB//wCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawEAAAAuAAAAAAAAAFMA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAvAAAB/gAAAFMA////AAAAAQAAAMoAAAH//AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAAC4AAAH/AAABBQD///8AAAADAAAHfQAAAdb8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawEAAAAAAAAHfQAAAI0A////AAAFoAAAAf8AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+eDP-1=eDP-1

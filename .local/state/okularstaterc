@@ -1,0 +1,23 @@
+[General]
+CommandBarLastUsedActions=
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Documents/book_shelf/TCP_IP_Guide.pdf,file:$HOME/Documents/book_shelf/MASTERING_GO.pdf,file:$HOME/Documents/book_shelf/GO_FOR_DEVOPS.pdf,file:$HOME/Documents/book_shelf/leanpub/cli_coreutils.pdf,file:$HOME/Documents/book_shelf/Theory\\, laboratories and exercises for Mikrotik RouterOS - Routing.epub,file:$HOME/Documents/book_shelf/Theory\\, Laboratories and Exercises for Mikrotik RouterOS.epub,file:$HOME/Documents/Friday_Appt_Notes.pdf,file:$HOME/Documents/book_shelf/Hugo-in-Action_Static-sites-and-dynamic-Jamstack-apps.pdf
+Recent URLs[$e]=file:$HOME/Documents/,file:$HOME/Documents/junos/,file:///tmp/,file:$HOME/Documents/book_shelf/,file:$HOME/Documents/book_shelf/leanpub/,file:$HOME/Downloads/,file:$HOME/,file:$HOME/code/
+
+[MainWindow]
+1920x1080 screen: Height=1006
+1920x1080 screen: Width=1917
+2 screens: Height=540
+2 screens: Width=1536
+2 screens: XPosition=2839
+2 screens: YPosition=28
+2560x1440 screen: Height=1369
+2560x1440 screen: Width=2055
+3 screens: Height=1367
+3 screens: Width=2444
+3 screens: XPosition=2839
+3 screens: YPosition=235
+DP-1-2 DP-1-3=DP-1-2
+DP-1-2 DP-1-3 HDMI-2=HDMI-2
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAEaAAAE3fwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgEAAAB6AAAE3QAAAQcA///+AAAILQAABN0AAAAEAAAABAAAAAgAAAAI/AAAAAMAAAABAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
