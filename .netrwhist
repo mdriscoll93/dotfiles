@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/mdriscoll/.local/share/kwin/scripts'
+let g:netrw_dirhist_7='/'
+let g:netrw_dirhist_6='/home/mdriscoll'
+let g:netrw_dirhist_5='/home'
+let g:netrw_dirhist_4='/home/mdriscoll'
+let g:netrw_dirhist_3='/usr'
+let g:netrw_dirhist_2='/usr/bin'
+let g:netrw_dirhist_1='/home/mdriscoll/.local/share'
+let g:netrw_dirhist_0='/home/mdriscoll/.local/share/dolphin/view_properties/trash'
+let g:netrw_dirhist_9='/home/mdriscoll/.local/share/dolphin'
